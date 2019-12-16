@@ -10,26 +10,15 @@ import org.junit.jupiter.api.Test;
 
 class MessageServiceTest {
 
-	@BeforeAll
-	static void setUpBeforeClass() throws Exception {
-			
-	}
-
-	@AfterAll
-	static void tearDownAfterClass() throws Exception {
-	}
-
-	@BeforeEach
-	void setUp() throws Exception {
-	}
-
-	@AfterEach
-	void tearDown() throws Exception {
-	}
-
+	
 	@Test
 	void testGet() {
 		assertEquals("Hello JUnit 5", MessageService.get());
+	}
+	
+	@Test
+	void testGet1() {
+		assertEquals("Hello JUnit 4", MessageService.get());
 	}
 
 }
