@@ -18,7 +18,7 @@ class MessageServiceTest {
 	
 	@Test
 	void testGet1() {
-		assertEquals("Hello JUnit 4", MessageService.get());
+		assertEquals("Hello JUnit 5", MessageService.get());
 	}
 
 }
